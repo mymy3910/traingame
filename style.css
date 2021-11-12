@@ -1,0 +1,35 @@
+body {
+    font-family: "Arial", "メイリオ";
+    }
+
+.container{
+    text-align:center;
+    margin:0 auto;
+}
+
+button{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    background: #ffb6c1;
+    color: #ffffff;
+    width: 80px;
+    height: 80px;
+    border: double 4px #ff6347;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #ff6347;
+}
+
+.output{
+    margin-top:30px;
+    font-size: 30px;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    border: solid 3px #c0c0c0;
+}
